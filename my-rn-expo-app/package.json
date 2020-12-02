@@ -9,6 +9,7 @@
     },
     "dependencies": {
         "expo": "~39.0.2",
+        "expo-font": "~8.3.0",
         "expo-status-bar": "~1.0.2",
         "react": "16.13.1",
         "react-dom": "16.13.1",
@@ -19,5 +20,6 @@
         "@babel/core": "~7.9.0",
         "prettier": "2.2.1"
     },
-    "private": true
+    "private": true,
+    "name": "my-rn-expo-app"
 }
