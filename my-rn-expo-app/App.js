@@ -62,13 +62,7 @@ export default function App() {
     return (
         <View style={styles.screen}>
             <Header title="Guess a Number" />
-            {
-                <GameOverScreen
-                    roundsNumber={1}
-                    userNumber={1}
-                    onRestart={configureNewGameHandler}
-                />
-            }
+            {content}
         </View>
     )
 }
